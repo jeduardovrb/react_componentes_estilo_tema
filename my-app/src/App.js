@@ -6,8 +6,8 @@ function App() {
       <form>
         <h1>Sign up to my newsletter</h1>
         <p></p>
-        <input type="text"></input>
-        <button>Sign up</button>
+        <input type="text" placeholder="my@email.com"></input>
+        <button  className="button">Sign up</button>
       </form>
     </div>
   );
