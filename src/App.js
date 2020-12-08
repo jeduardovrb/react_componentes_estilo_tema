@@ -21,7 +21,7 @@ class App extends Component  {
   }
 
   toggleTheme = () => {
-    if (this.state.theme == 'Branco') {
+    if (this.state.theme === 'Branco') {
       this.setState({
         inputText: this.state.imputText,
         theme: 'Escuro',
