@@ -20,5 +20,6 @@ export const GlobalStyle = createGlobalStyle`
     .texto {
         color: ${({theme}) => theme.colortext};
     }
-`;
-      
+`; 
+
+export default GlobalStyle;
